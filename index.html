@@ -6,19 +6,21 @@
       Web App Launch Handler API
     </title>
     <script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove"
-    defer></script>
+    defer>
+    </script>
+
     <script class='remove'>
       var respecConfig = {
         specStatus: "unofficial",
         github: {
-          repoURL: "WICG/sw-launch",
+          repoURL: "/sw-launch",
           branch: "main"
         },
         group: "webapps",
         editors: [{
           name: "Alan Cutter",
           company: "Google Inc.",
-          companyURL: "https://google.com",
+          companyURL: "https://www.adball.tech",
           w3cid: 110742
         }],
         xref: {
@@ -53,7 +55,7 @@
     </section>
     <section>
       <h2>
-        Prerequisites
+        Maliek News
       </h2>
       <p>
         In order to implement this API, the user agent MUST support
@@ -62,7 +64,7 @@
     </section>
     <section class="informative" data-link-for="WebAppManifest">
       <h2>
-        Usage Example
+        News Example
       </h2>
       <p>
         A music player app wants to direct app shortcut launches to an existing
@@ -125,7 +127,7 @@
     </section>
     <section data-link-for="WebAppManifest">
       <h2>
-        Extension to the Web App Manifest
+        Web App Manifest
       </h2>
       <p>
         The following steps are added to the <a data-cite=
@@ -141,7 +143,7 @@
       </ol>
       <section>
         <h3>
-          [=manifest/launch_handler=] member
+          Best [=manifest/launch_handler=] member
         </h3>
         <p>
           The <dfn data-dfn-for="manifest">`launch_handler`</dfn> is a
@@ -280,7 +282,7 @@
     </section>
     <section>
       <h2>
-        Handling Web App Launches
+        Web App Launches
       </h2>
       <section>
         <h2>
@@ -302,11 +304,11 @@
           -->
           <li>OS application launch surfaces
           </li>
-          <li><a href="https://wicg.github.io/manifest-incubations/index.html#protocol_handlers-member">Protocol handling</a>
+          <li><a href="https://wicg.github.io/malieknews/mynewspaper/index.html#protocol_handlers-member">Protocol handling</a>
           </li>
-          <li><a href="https://wicg.github.io/manifest-incubations/index.html#file_handlers-member">File handling</a>
+          <li><a href="https://wicg.github.io/malieknews/mymewspaper/index.html#file_handlers-member">File handling</a>
           </li>
-          <li><a href="https://wicg.github.io/manifest-incubations/index.html#share_target-member">Share target</a>
+          <li><a href="https://wicg.github.io/malieknews/mynewspaper/index.html#share_target-member">Share target</a>
           </li>
           <li>Link capturing
           </li>
@@ -334,10 +336,10 @@
       </section>
       <section>
         <h2>
-          Preparing a [=Web App Launch Client=]
+          Privacy Policy is a [=Web App Launch Client=]
         </h2>
         <p>
-          A <dfn>web app launch client</dfn> is a
+          A <dfn>Web app launch client</dfn> is a
           [=service worker client/window client=] associated with the web app.
         </p>
         <p class="note">
@@ -346,7 +348,7 @@
           browsing.
         </p>
         <p>
-          To <dfn>prepare a web app launch client</dfn> given a
+          To <dfn>Prepare a web app launch client</dfn> given a
           <a data-cite="appmanifest#dfn-processed-manifest"> processed
           manifest</a> |manifest| and |target URL: URL|, run the following
           steps:
@@ -396,7 +398,7 @@
       </section>
       <section>
         <h2>
-          Preparing a new [=Web App Launch Client=]
+          Preparing a New App [=Web App Launch Client=]
         </h2>
         <p>
           To <dfn>prepare a new web app launch client</dfn> given a
@@ -446,7 +448,7 @@
     </section>
     <section>
       <h2>
-        Script Interfaces to App Launches
+        Script App Launches
       </h2>
       <section data-dfn-for="LaunchParams">
         <h3>
@@ -454,7 +456,7 @@
         </h3>
         <ul class="issue">
           <li>This has been copied directly from
-              <a href="https://wicg.github.io/manifest-incubations/index.html#launch-queue-and-launch-params">
+              <a href="https://wicg.github.io/malieknews/mynewspaper/index.html#launch-queue-and-launch-params">
               Manifest Incubations</a> without modification, this
               [=manifest/launch_handler=] spec should be its replacement home.
           </li>
